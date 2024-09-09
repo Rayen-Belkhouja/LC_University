@@ -1,33 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+
+
+
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .max-container {
+    @apply lg:px-[100px] md:px-[50px] px-[15px] pt-10;
+  }
+
+  .nav {
+    @apply parag  relative font-semibold hover:text-gray-500 after:bg-university-yellow hidden lg:block;
+  }
+
+  .nav.active {
+    @apply text-gray-500
+  }
+
+  .nav::after {
+    @apply absolute bg-university-yellow w-[0%] h-[3px] left-0 -bottom-[3px] rounded-xl duration-300
+  }
+
+  .nav:hover::after,
+  .nav.active::after {
+    @apply w-[100%] text-gray-500;
+  }
+
+  .header {
+    @apply md:text-7xl text-5xl font-extrabold font-oswald;
+  }
+
+  .semiheader {
+    @apply md:text-5xl text-4xl font-extrabold font-oswald;
+  }
+
+  .thirdheader {
+    @apply md:text-3xl text-2xl font-oswald font-bold;  
+  }
+
+  .parag{
+    @apply font-lato text-base;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .custom-scrollbar {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
   }
 }
