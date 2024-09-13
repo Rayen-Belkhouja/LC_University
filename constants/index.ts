@@ -2,7 +2,7 @@ export const NavLinks = [
     { href: '/', key: 'home', label: 'Home' },
     { href: '/eb', key: 'eb', label: 'EB' },
     { href: '/departments', key: 'departments', label: 'Departements' },
-    { href: '/calender', key: 'calnder', label: 'Calender' },
+    { href: '/calender', key: 'calnder', label: 'Calendar' },
     { href: '/testimonials', key: 'testimonials', label: 'Testimonials' },
     { href: '/trackers', key: 'trackers', label: 'Trackers' },
 ]
@@ -21,8 +21,8 @@ export const Partner = [
 export const Values = [
     { id: 1, image: "/icons/first.png", title: "Grit", desc: "We keep pushing forward and don't give up, even when things get tough or we face big challenges." },
     { id: 2, image: "/icons/two.png", title: "Work Hard, Play Harder, Work Even Harder", desc: 'We have fun but stay focused on what we need to do.' },
-    { id: 3, image: "/icons/three.png", title: "Wise LC", desc: 'We make smart choices because we’ve learned from the past.' },
-    { id: 4, image: "/icons/four.png", title: "value1", desc: 'fklhjdsklh fdslfkj dslfkj sldkfhj sdlkkf jhslkf hjsdl khfjs slfhj sd' },
+    { id: 4, image: "/icons/three.png", title: "Stronger than our Strongest Excuses", desc: 'We cultivate resilience in our LC, overcoming challenges to drive personal and collective growth.' },
+    { id: 3, image: "/icons/four.png", title: "Wisdom", desc: 'We make smart choices because we’ve learned from the past.' },
 ]
 
 export const Eb = [
@@ -43,7 +43,7 @@ export const departments = [
     { id: "igv", title: 'Incoming Global Volunteer', instalink: "https://www.instagram.com/igv.cuba/", desc: 'We are responsible for bringing people from different countries to Tunisia to live our multiple volunteering projects.', image: '/departments/igv.gif' },
     { id: "igt", title: 'Incoming Global Ta/Te', instalink: "https://www.instagram.com/7arb_elpanique/", desc: 'We are responsible for bringing people from different countries to work in one of our professional Talent or Teaching opportunities.', image: '/departments/igt.gif' },
     { id: "im", title: 'Information Management', instalink: "https://www.instagram.com/im.university.24/", desc: 'We are responsible for data management, manipulation, and storage for each department and the LC overall.', image: '/departments/im.gif' },
-    { id: "f&l", title: 'Finance And Legalities', instalink: "/", desc: 'We are one of the back-office departments, responsible for maintaining the healthy execution of the budget and controlling the compendium of the LC.', image: '/hero.gif' },
+    { id: "f&l", title: 'Finance And Legalities', instalink: "/", desc: 'We are one of the back-office departments, responsible for maintaining the healthy execution of the budget and controlling the compendium of the LC.', image: '/departments/f&l.png' },
     { id: "tm", title: 'Talent Management', instalink: "/", desc: 'We are responsible for delivering a good experience for our membership.', image: '/hero.gif' },
     { id: "bd", title: 'Business Development & EwA', instalink: "/", desc: "We are responsible for enhancing our sales processes, driving business development, and maintaining the LC's professional brand in the professional network.", image: '/hero.gif' },
     { id: "mkt", title: 'Marketing', instalink: "/", desc: 'We are responsible for bringing new interested customers ready to go on exchange experiences with AIESEC.', image: '/departments/mkt.gif' },
