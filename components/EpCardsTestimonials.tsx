@@ -60,6 +60,16 @@ I <Highlight>arrived in Tunis</Highlight> on August 20th, unsure of what to expe
 </p>
     ),
   },
+  {
+    id: 3,
+    name: "Mariam Khan",
+    designation: "IGV Global Classroom",
+    content: (
+      <p>
+Last year, I had the amazing opportunity to teach English in <Highlight>India</Highlight> through an AIESEC exchange program, and it was an unforgettable experience. Not only did I enjoy connecting with students and sharing knowledge, but I also immersed myself in the vibrant culture and made lasting friendships. The entire journey was both enriching and fun, and it truly helped me grow on a personal level. It’s an experience I highly recommend!
+</p>
+    ),
+  },
   
   
   

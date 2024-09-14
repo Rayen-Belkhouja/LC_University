@@ -37,7 +37,7 @@ export function ImagesSliderDemoTestimonialsCalender() {
         className="z-50 flex flex-col justify-center items-center"
       >
         <motion.p className="text-white header mb-6 capitalize text-center">
-        Here Were <span className="text-university-yellow">Memories </span> Were Created
+        Here Where <span className="text-university-yellow">Memories </span> Were Created
         </motion.p>
       </motion.div>
     </ImagesSlider>

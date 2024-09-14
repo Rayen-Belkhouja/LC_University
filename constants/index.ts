@@ -47,7 +47,6 @@ export const departments = [
     { id: "tm", title: 'Talent Management', instalink: "/", desc: 'We are responsible for delivering a good experience for our membership.', image: '/hero.gif' },
     { id: "bd", title: 'Business Development & EwA', instalink: "/", desc: "We are responsible for enhancing our sales processes, driving business development, and maintaining the LC's professional brand in the professional network.", image: '/hero.gif' },
     { id: "mkt", title: 'Marketing', instalink: "/", desc: 'We are responsible for bringing new interested customers ready to go on exchange experiences with AIESEC.', image: '/departments/mkt.gif' },
-
 ]
 
 export const footerLinks = [
