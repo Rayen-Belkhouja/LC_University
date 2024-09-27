@@ -36,7 +36,7 @@ const CARDS = [
     designation: "OGTa",
     content: (
       <p>
-        “I went to <Highlight>India</Highlight> with my classmate, where we made friends from different countries, learned a lot about Indian culture, and gained valuable experience from the IT internship we completed.”
+        I went to <Highlight>India</Highlight> with my classmate, where we made friends from different countries, learned a lot about Indian culture, and gained valuable experience from the IT internship we completed.
       </p>
     ),
   },
@@ -46,7 +46,7 @@ const CARDS = [
     designation: "OGV",
     content: (
       <p>
-        “<Highlight>Bursa</Highlight> was a beautiful city that I plan to revisit in the winter. I met wonderful people in Turkey, including my host, with whom I’m still in contact.”
+        <Highlight>Bursa</Highlight> was a beautiful city that I plan to revisit in the winter. I met wonderful people in Turkey, including my host, with whom I’m still in contact.
       </p>
     ),
   },
@@ -56,17 +56,27 @@ const CARDS = [
     designation: "IGV Global Classroom",
     content: (
       <p>
-I <Highlight>arrived in Tunis</Highlight> on August 20th, unsure of what to expect. Having lived in <Highlight>Pakistan and Germany,</Highlight> Tunisia strikes me as a balanced blend of religion and modernity. The locals have been very helpful despite the language barrier. Through AIESEC, I’ve explored Tunis, Bizerte, and Kelibia, and I’m excited to teach Tunisian kids as preparation for my future as an English teacher.
-</p>
+        I <Highlight>arrived in Tunis</Highlight> on August 20th, unsure of what to expect. Having lived in <Highlight>Pakistan and Germany,</Highlight> Tunisia strikes me as a balanced blend of religion and modernity. The locals have been very helpful despite the language barrier. Through AIESEC, I’ve explored Tunis, Bizerte, and Kelibia, and I’m excited to teach Tunisian kids as preparation for my future as an English teacher.
+      </p>
     ),
   },
   {
     id: 3,
-    name: "Mariam Khan",
-    designation: "IGV Global Classroom",
+    name: "Jihed Boukhris",
+    designation: "oGTe LC Chandigarh",
     content: (
       <p>
-Last year, I had the amazing opportunity to teach English in <Highlight>India</Highlight> through an AIESEC exchange program, and it was an unforgettable experience. Not only did I enjoy connecting with students and sharing knowledge, but I also immersed myself in the vibrant culture and made lasting friendships. The entire journey was both enriching and fun, and it truly helped me grow on a personal level. It’s an experience I highly recommend!
+Last year, I had the incredible opportunity to teach English in <Highlight>India </Highlight> through an AIESEC exchange program, and it was unforgettable. I loved connecting with students, sharing knowledge, and embracing the vibrant culture. The experience was both enriching and fun, helping me grow personally. I highly recommend it!
+</p>
+    ),
+  },
+  {
+    id: 4,
+    name: "ali jemai",
+    designation: "oGV",
+    content: (
+      <p>
+        Volunteering in <Highlight>Egypt</Highlight> with AIESEC was an incredible experience beyond just teaching English and French to children. I explored the country, met amazing people, and enjoyed a rich cultural exchange. The friendships I made and the memories I created left a lasting impact on me.
 </p>
     ),
   },

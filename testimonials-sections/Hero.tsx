@@ -5,7 +5,7 @@ import { ImagesSlider } from "@/components/ui/images-slider";
 
 export function ImagesSliderDemoTestimonials() {
   const images = [
-    "/testimonials/hero/32.gif",
+    "/testimonials/hero/1.gif",
     "/testimonials/hero/17.gif",
     "/testimonials/hero/3.gif",
     "/testimonials/hero/4.gif",
@@ -14,7 +14,6 @@ export function ImagesSliderDemoTestimonials() {
     "/testimonials/hero/7.gif",
     "/testimonials/hero/8.gif",
     "/testimonials/hero/9.gif",
-    "/testimonials/hero/11.gif",
     "/testimonials/hero/12.gif",
     "/testimonials/hero/13.gif",
     "/testimonials/hero/14.gif",

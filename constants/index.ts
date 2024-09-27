@@ -1,7 +1,7 @@
 export const NavLinks = [
     { href: '/', key: 'home', label: 'Home' },
     { href: '/eb', key: 'eb', label: 'EB' },
-    { href: '/departments', key: 'departments', label: 'Departements' },
+    { href: '/departments', key: 'departments', label: 'Departments' },
     { href: '/calender', key: 'calnder', label: 'Calendar' },
     { href: '/testimonials', key: 'testimonials', label: 'Testimonials' },
     { href: '/trackers', key: 'trackers', label: 'Trackers' },
