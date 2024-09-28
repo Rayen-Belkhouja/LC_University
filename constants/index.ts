@@ -38,15 +38,15 @@ export const Eb = [
 ]
 
 export const departments = [
-    { id: "ogv", title: 'Outgoing Global Volunteer', instalink: "https://www.instagram.com/ogv.university/", desc: 'We are responsible for sending people from our Campus to volunteering programs in different countries with our AIESEC Partners.', image: '/departments/ogv.gif' },
-    { id: "ogt", title: 'Outgoing Global Ta/Te', instalink: "https://www.instagram.com/ogt.university/", desc: 'We send people from our Campus to professional Teaching or Talent internships in different countries with our AIESEC Partners.', image: '/departments/ogt.gif' },
-    { id: "igv", title: 'Incoming Global Volunteer', instalink: "https://www.instagram.com/igv.cuba/", desc: 'We are responsible for bringing people from different countries to Tunisia to live our multiple volunteering projects.', image: '/departments/igv.gif' },
-    { id: "igt", title: 'Incoming Global Ta/Te', instalink: "https://www.instagram.com/7arb_elpanique/", desc: 'We are responsible for bringing people from different countries to work in one of our professional Talent or Teaching opportunities.', image: '/departments/igt.gif' },
-    { id: "im", title: 'Information Management', instalink: "https://www.instagram.com/im.university.24/", desc: 'We are responsible for data management, manipulation, and storage for each department and the LC overall.', image: '/departments/im.gif' },
+    { id: "ogv", title: 'Outgoing Global Volunteer', instalink: "https://www.instagram.com/ogv.university/", desc: 'We are responsible for sending people from our Campus to volunteering programs in different countries with our AIESEC Partners.', image: '/departments/ogv.png' },
+    { id: "ogt", title: 'Outgoing Global Ta/Te', instalink: "https://www.instagram.com/ogt.university/", desc: 'We send people from our Campus to professional Teaching or Talent internships in different countries with our AIESEC Partners.', image: '/departments/ogt.png' },
+    { id: "igv", title: 'Incoming Global Volunteer', instalink: "https://www.instagram.com/igv.cuba/", desc: 'We are responsible for bringing people from different countries to Tunisia to live our multiple volunteering projects.', image: '/departments/igv.png' },
+    { id: "igt", title: 'Incoming Global Ta/Te', instalink: "https://www.instagram.com/7arb_elpanique/", desc: 'We are responsible for bringing people from different countries to work in one of our professional Talent or Teaching opportunities.', image: '/departments/igt.png' },
+    { id: "im", title: 'Information Management', instalink: "https://www.instagram.com/im.university.24/", desc: 'We are responsible for data management, manipulation, and storage for each department and the LC overall.', image: '/departments/im.png' },
     { id: "f&l", title: 'Finance And Legalities', instalink: "/", desc: 'We are one of the back-office departments, responsible for maintaining the healthy execution of the budget and controlling the compendium of the LC.', image: '/departments/f&l.png' },
     { id: "tm", title: 'Talent Management', instalink: "/", desc: 'We are responsible for delivering a good experience for our membership.', image: '/hero.gif' },
     { id: "bd", title: 'Business Development & EwA', instalink: "/", desc: "We are responsible for enhancing our sales processes, driving business development, and maintaining the LC's professional brand in the professional network.", image: '/hero.gif' },
-    { id: "mkt", title: 'Marketing', instalink: "/", desc: 'We are responsible for bringing new interested customers ready to go on exchange experiences with AIESEC.', image: '/departments/mkt.gif' },
+    { id: "mkt", title: 'Marketing', instalink: "/", desc: 'We are responsible for bringing new interested customers ready to go on exchange experiences with AIESEC.', image: '/departments/mkt.png' },
 ]
 
 export const footerLinks = [
