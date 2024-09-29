@@ -25,6 +25,7 @@ export const BentoGridItemTrackers = ({
   description,
   image,
   link,
+  id,
 
 }: {
   className?: string;
@@ -32,6 +33,7 @@ export const BentoGridItemTrackers = ({
   description?: string | React.ReactNode;
   image?: string
   link?: string
+  id?:string
 }) => {
   return (
     <div
@@ -40,7 +42,7 @@ export const BentoGridItemTrackers = ({
         className
       )}
     >
-      <div>
+      <div id={id}>
         <div className="bg-black absolute top-0 left-0 h-full w-full z-30 opacity-30 rounded-xl" />
         <img src={image} alt="" className="absolute top-0 left-0 rounded-xl h-full w-full object-cover z-20" />
         <div className="group-hover/bento:translate-x-2 transition duration-200 absolute bottom-10 z-40">

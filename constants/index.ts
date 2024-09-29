@@ -78,7 +78,8 @@ export const footerLinks = [
         id: 3,
         title: 'Trackers',
         contents: [
-            { name: 'University Dashboard', link: '/' },
+            { name: 'University Dashboard', link: '/trackers#university-dashboard' },
+            { name: 'University Contact List', link: '/trackers#university-contact-list' },
         ]
     }
 ]
