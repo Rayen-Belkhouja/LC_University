@@ -14,7 +14,6 @@ export const Partner = [
     { key: 'Sesam', image: "/partners/sesam.png", label: 'Sesam' },
     { key: 'ULT', image: "/partners/ult.png", label: 'ULT' },
     { key: 'ESGITECH', image: "/partners/esgitech.gif", label: 'ESGTECH' },
-    { key: 'Ted University', image: "/partners/ted.png", label: 'Ted University' },
     { key: 'ITeam', image: "/partners/iteam.gif", label: 'ITeam' },
 ]
 
@@ -43,10 +42,10 @@ export const departments = [
     { id: "igv", title: 'Incoming Global Volunteer', instalink: "https://www.instagram.com/igv.cuba/", desc: 'We are responsible for bringing people from different countries to Tunisia to live our multiple volunteering projects.', image: '/departments/igv.png' },
     { id: "igt", title: 'Incoming Global Ta/Te', instalink: "https://www.instagram.com/7arb_elpanique/", desc: 'We are responsible for bringing people from different countries to work in one of our professional Talent or Teaching opportunities.', image: '/departments/igt.png' },
     { id: "im", title: 'Information Management', instalink: "https://www.instagram.com/im.university.24/", desc: 'We are responsible for data management, manipulation, and storage for each department and the LC overall.', image: '/departments/im.png' },
-    { id: "f&l", title: 'Finance And Legalities', instalink: "/", desc: 'We are one of the back-office departments, responsible for maintaining the healthy execution of the budget and controlling the compendium of the LC.', image: '/departments/f&l.png' },
-    { id: "tm", title: 'Talent Management', instalink: "/", desc: 'We are responsible for delivering a good experience for our membership.', image: '/hero.gif' },
-    { id: "bd", title: 'Business Development & EwA', instalink: "/", desc: "We are responsible for enhancing our sales processes, driving business development, and maintaining the LC's professional brand in the professional network.", image: '/hero.gif' },
-    { id: "mkt", title: 'Marketing', instalink: "/", desc: 'We are responsible for bringing new interested customers ready to go on exchange experiences with AIESEC.', image: '/departments/mkt.png' },
+    { id: "f&l", title: 'Finance And Legalities', instalink: "https://www.instagram.com/finance_un_24.25/", desc: 'We are one of the back-office departments, responsible for maintaining the healthy execution of the budget and controlling the compendium of the LC.', image: '/departments/f&l.png' },
+    { id: "tm", title: 'Talent Management', instalink: "https://www.instagram.com/totally_tm/", desc: 'We are responsible for delivering a good experience for our membership.', image: '/departments/tm.png' },
+    { id: "bd", title: 'Business Development & EwA', instalink: "https://www.instagram.com/bd.university/", desc: "We are responsible for enhancing our sales processes, driving business development, and maintaining the LC's professional brand in the professional network.", image: '/departments/bd.png' },
+    { id: "mkt", title: 'Marketing', instalink: "https://www.instagram.com/real_brand_killers/", desc: 'We are responsible for bringing new interested customers ready to go on exchange experiences with AIESEC.', image: '/departments/mkt.png' },
 ]
 
 export const footerLinks = [

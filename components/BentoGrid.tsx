@@ -55,7 +55,7 @@ const itemsTrackers = [
   {
     title: "University Contact List",
     description: "This is the official updated version of the Contact List for the Membership of LC University for the term 24.25. You can find it also in the official facebook group of the LC “UN’s HQ”",
-    image: '/soft-skills.gif',
+    image: '/trackers/contact-list.png',
     className: "md:col-span-3 overflow-hidden",
     link: "https://docs.google.com/spreadsheets/d/1VlGIWLppbZ1kuHBDMJ2Wif-JNT2ts3aKQj8tWCFPe54/edit?copiedFromTrash=&gid=0#gid=0",
     id:"university-contact-list",
