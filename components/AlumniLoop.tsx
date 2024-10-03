@@ -20,38 +20,18 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     testimonial:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "moha",
-    position: "A Tale of Two Cities",
-    image:"/eb/haninedited.gif",
+      "Represents wisdom, inequinty, intelligence and patience. These are the personality traits I discovered during my journey in AIESEC and they did develop the right way.",
+    name: "Med Aziz Boukhris",
+    position: "LCP 21.22",
+    image:"/testimonials/alumnispdp/boukhris.png",
   },
   {
     testimonial:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "rayen",
-    position: "A Tale of Two Cities",
-    image:"/eb/haninedited.gif",
+      "Dragons in Chinese culture symbolize POWER, GOOD LUCK, and STRENGTH. I discovered the energy of the Dragon during my AIESEC journey, I started developing this energy because I genuinely believe that Dragon energy represent who I am.",
+    name: "Skander Bouricha",
+    position: "LCVP Marketing",
+    image:"/testimonials/alumnispdp/ska.png",
   },
-  {
-    testimonial:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "Hanin",
-    position: "A Tale of Two Cities",
-    image:"/eb/haninedited.gif",
-  },
-  {
-    testimonial:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "houssem",
-    position: "A Tale of Two Cities",
-    image:"/eb/haninedited.gif",
-  },
-  {
-    testimonial:
-      "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
-    name: "marwens",
-    position: "A Tale of Two Cities",
-    image:"/eb/haninedited.gif",
-  },
+  
 
 ];
