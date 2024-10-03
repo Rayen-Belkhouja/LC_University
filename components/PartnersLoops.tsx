@@ -6,7 +6,7 @@ import { Partner } from "@/constants";
 
 export function InfiniteMovingPartnersDemo() {
   return (
-    <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[20rem] rounded-md flex flex-col antialiased bg-transparent  dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingPartners
         items={Partner}
         direction="right"

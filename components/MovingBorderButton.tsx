@@ -7,7 +7,7 @@ export function MovingBorderDemo() {
     <div>
       <Button
         borderRadius="1rem"
-        className="bg-white dark:bg-slate-900 text-black text-md border-university-yellow   dark:border-slate-800"
+        className="bg-white  text-black text-md border-university-yellow "
       >
         Contact Us
       </Button>
